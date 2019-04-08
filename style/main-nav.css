@@ -1,0 +1,48 @@
+.main-nav {
+    position: relative;
+    height: var(--main-menu-height);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--main-green);
+    box-shadow: 0px 0px 6px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.main-nav .active {
+    color: var(--active-color);
+}
+.main-nav a {
+    
+    margin-right: 25px;
+    text-decoration: none;
+    color: var(--main-green);
+    font-size: var(--main-menu-font-size);
+    line-height: var(--main-menu-height);
+    transition: 500ms;
+    
+}
+.main-nav a:hover {
+    color: var(--active-color);
+}
+.main-nav a:last-child {
+    margin-right: 75px;
+}
+
+.main-nav div {
+    width: 75px;
+    height: 75px;
+    background-color: grey;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+    
+    
+}
+

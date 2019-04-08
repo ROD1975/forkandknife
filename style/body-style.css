@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+:root {
+    --main-green: green; 
+    --main-font-color: white;
+    --hover-color: #66d0c4;
+    --main-menu-font-size: 15px;
+    --main-menu-height: 50px;
+    --active-color: orange;
+  }
+.header {
+    height: 100vh;
+    background: url("/img/bcg_firstV2.jpg") center no-repeat fixed;
+    background-size: cover;
+    overflow: hidden;
+ 
+    
+
+}
+.header-frame {
+    width: 98vw;
+    height: 95vh;
+    border: 2px solid white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    
+}
+.header-content {
+    /* top: -415px; */
+    /* animation: header-content-slide-in 1s 1s both; */
+    /* border: 1px solid red; */
+}
+.header-left {
+    flex-grow: 1;
+    position: relative;
+}
+.header-left-line {
+    width: 350px;
+    height: 400px;
+    /* border-right: 3px solid white; */
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 2px black;
+    animation: header-content-slide-in .8s 1s both;
+    
+}
+.hlc-all {
+    width: 345px;
+    height: 390px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 350px;
+    top: 5px;
+    transition: 1000ms;
+    
+    
+}
+.hlc-all-visible {
+    left: 0;
+}
+

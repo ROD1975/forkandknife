@@ -1,0 +1,12 @@
+.motto {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color:rgba(0,0,0,0.7);
+    animation: header-content-slide-in .8s 1.5s both;
+}
